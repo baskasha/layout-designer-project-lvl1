@@ -57,6 +57,10 @@ h3 {
     font-size: 34px;
 }
 
+.h1-center {
+    text-align: center;
+}
+
 .page {
     width: 100vw;
     height: fit-content;
@@ -68,7 +72,6 @@ h3 {
 .page-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 1110px;
     margin: 100px 0;
     position: relative;
@@ -91,7 +94,7 @@ h3 {
     content: '';
 }
 
-.color-light {
+.color-bg-light {
     background-color: var(--light);
 }
 
@@ -142,4 +145,26 @@ header .column {
 
 button:hover {
     background-color: #EA7600;
+}
+
+.color-bg-white {
+    background-color: var(--white);
+}
+
+.video {
+    margin-top: 30px;
+
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.page-just-between {
+    justify-content: space-between;
+}
+
+.page-just-center {
+    justify-content: center;
+}
+
+.p-margin-top-30 {
+    margin-top: 30px;
 }
