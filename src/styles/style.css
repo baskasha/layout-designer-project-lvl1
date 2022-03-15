@@ -13,19 +13,19 @@
 @font-face {
     font-weight: 300;
     font-family: Neucha;
-    src: url(assets/fonts/Neucha-Regular.ttf);
+    src: url(../assets/fonts/Neucha-Regular.ttf);
 }
 
 @font-face {
     font-weight: 300;
     font-family: 'Open Sans';
-    src: url(assets/fonts/OpenSans-Regular.ttf);
+    src: url(../assets/fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-weight: 700;
     font-family: 'Open Sans';
-    src: url(assets/fonts/OpenSans-Bold.ttf);
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
 }
 
 body {
@@ -34,6 +34,7 @@ body {
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
+    margin: 0;
 }
 
 h1,
@@ -45,6 +46,7 @@ h3 {
 
 h1 {
     font-size: 72px;
+    font-weight: 400;
 }
 
 h2 {
@@ -55,7 +57,89 @@ h3 {
     font-size: 34px;
 }
 
-.section {
+.page {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 1110px;
     margin: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.pattern::before {
+    background-image: url(../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100%;
+
+    content: '';
+}
+
+.color-light {
+    background-color: var(--light);
+}
+
+.page-content>.image-header {
+    position: absolute;
+    top: -55px;
+    right: -270px;
+    height: 525px;
+    z-index: -1;
+}
+
+.page-content h1 {
+    margin: 0;
+    width: 100%;
+}
+
+.column {
+    width: 540px;
+}
+
+header .column {
+    margin-top: 185px;
+}
+
+.main-button {
+    width: 148px;
+    height: 49px;
+
+    border: 0;
+
+    margin-top: 40px;
+    padding: 12px 24px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color: var(--main);
+}
+
+.color-main {
+    color: var(--main);
+}
+
+button:hover {
+    background-color: #EA7600;
 }
