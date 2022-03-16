@@ -210,6 +210,11 @@ button:hover {
 
 .page-one p {
     margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.page-one iframe {
+    border: 0;
 }
 
 .video {
