@@ -75,6 +75,10 @@ h3 {
     background-color: var(--main-dark);
 }
 
+.color-bg-brown {
+    background-color: var(--brown);
+}
+
 .color-main {
     color: var(--main);
 }
@@ -142,6 +146,14 @@ h3 {
 
 button:hover {
     background-color: #EA7600;
+}
+
+.break {
+    break-before: column;
+}
+
+.columns p {
+    margin-top: 0;
 }
 
 .page-header {
@@ -333,10 +345,77 @@ nav a {
     margin-top: 20px;
 }
 
-.break {
-    break-before: column;
+.page-four {
+    justify-content: space-between;
 }
 
-.columns p {
+#premature-optimization {
+    transform: translateY(-100px);
+}
+
+.page-four-description {
+    display: block;
+    width: 502px;
+    margin-right: 30px;
+}
+
+.page-four-description .chapter {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+
+    color: var(--opacity-white);
+
+    margin: 0;
+}
+
+.page-four-description h2 {
+    color: var(--white);
     margin-top: 0;
+}
+
+.page-four-description .description {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.2em;
+
+    color: var(--white);
+
+    margin-top: 30px;
+}
+
+.page-four img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.page-four h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: var(--brown);
+    text-transform: uppercase;
+
+    display: block;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    background-color: var(--white);
+}
+
+.page-four .columns {
+    column-count: 2;
+    column-gap: 30px;
+
+    color: var(--white);
+
+    margin-top: 20px;
 }
