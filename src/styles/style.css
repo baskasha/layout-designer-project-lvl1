@@ -161,8 +161,19 @@ button:hover {
     width: 100%;
 }
 
-.page-header .column {
+.page-header .columns {
+    column-count: 2;
+    column-gap: 30px;
+
     margin-top: 185px;
+}
+
+.page-header a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .page-one {
@@ -250,4 +261,82 @@ nav a {
     height: 100%;
     text-decoration: none !important;
     color: inherit !important;
+}
+
+.page-three {
+    justify-content: space-between;
+}
+
+#ikea-effect {
+    transform: translateY(-100px);
+}
+
+.page-three-description {
+    display: block;
+    width: 502px;
+    margin-left: 30px;
+}
+
+.page-three-description .chapter {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+
+    color: var(--opacity-dark);
+
+    margin: 0;
+}
+
+.page-three-description h2 {
+    margin-top: 0;
+}
+
+.page-three-description .description {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.2em;
+
+    margin-top: 30px;
+}
+
+.page-three img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.page-three h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: var(--white);
+    text-transform: uppercase;
+
+    display: block;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    background-color: var(--brown);
+}
+
+.page-three .columns {
+    column-count: 2;
+    column-gap: 30px;
+
+    margin-top: 20px;
+}
+
+.break {
+    break-before: column;
+}
+
+.columns p {
+    margin-top: 0;
 }
