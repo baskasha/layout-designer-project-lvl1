@@ -564,3 +564,73 @@ nav a {
 
     margin-top: 20px;
 }
+
+.page-seven {
+    justify-content: space-between;
+}
+
+#errors-in-planning {
+    transform: translateY(-100px);
+}
+
+.page-seven-description {
+    display: block;
+    width: 502px;
+    margin-left: 30px;
+}
+
+.page-seven-description .chapter {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+
+    color: var(--opacity-dark);
+
+    margin: 0;
+}
+
+.page-seven-description h2 {
+    margin-top: 0;
+}
+
+.page-seven-description .description {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.2em;
+
+    margin-top: 30px;
+}
+
+.page-seven img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.page-seven h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: var(--white);
+    text-transform: uppercase;
+
+    display: block;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    background-color: var(--brown);
+}
+
+.page-seven .columns {
+    column-count: 2;
+    column-gap: 30px;
+
+    margin-top: 20px;
+}
