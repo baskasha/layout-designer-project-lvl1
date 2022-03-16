@@ -489,3 +489,78 @@ nav a {
 
     margin-top: 20px;
 }
+
+.page-six {
+    justify-content: space-between;
+}
+
+#hyperbolic-depreciation {
+    transform: translateY(-100px);
+}
+
+.page-six-description {
+    display: block;
+    width: 502px;
+    margin-right: 30px;
+}
+
+.page-six-description .chapter {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2em;
+
+    color: var(--opacity-white);
+
+    margin: 0;
+}
+
+.page-six-description h2 {
+    color: var(--white);
+    margin-top: 0;
+}
+
+.page-six-description .description {
+    font-family: Neucha, sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.2em;
+
+    color: var(--white);
+
+    margin-top: 30px;
+}
+
+.page-six img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.page-six h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: var(--brown);
+    text-transform: uppercase;
+
+    display: block;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    margin-top: 100px;
+    margin-bottom: 0;
+
+    background-color: var(--white);
+}
+
+.page-six .columns {
+    column-count: 2;
+    column-gap: 30px;
+
+    color: var(--white);
+
+    margin-top: 20px;
+}
