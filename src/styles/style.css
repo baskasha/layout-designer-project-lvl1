@@ -144,6 +144,15 @@ h3 {
     background-color: var(--main);
 }
 
+.small-button {
+    width: 70px;
+    height: 50px;
+
+    border: 0;
+
+    background-color: var(--main);
+}
+
 button:hover {
     background-color: #EA7600;
 }
@@ -633,4 +642,117 @@ nav a {
     column-gap: 30px;
 
     margin-top: 20px;
+}
+
+.page-footer {
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.page-footer>div {
+    width: 100%;
+}
+
+#footer-page {
+    transform: translateY(-100px);
+    margin-bottom: 0;
+}
+
+.footer-data {
+    font-size: 14px;
+    text-align: center;
+
+    margin-top: 60px;
+}
+
+.page-footer h3 {
+    color: var(--white);
+
+    margin-top: 55px;
+    margin-left: 55px;
+    margin-bottom: 55px;
+}
+
+.page-footer-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.page-footer-email form {
+    margin-right: 55px;
+}
+
+.sr-only {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+
+    white-space: nowrap;
+}
+
+.form-name {
+    font-size: 18px;
+    text-align: left;
+    color: var(--white);
+
+    margin-top: 38px;
+    margin-bottom: 9px;
+}
+
+.page-footer input {
+    width: 423px;
+    height: 50px;
+
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3;
+
+    padding: 0;
+}
+
+form ::placeholder {
+    font-size: 13.1px;
+    columns: #757575;
+
+    opacity: 0.2;
+
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.small-button::before {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    background-image: url(../assets/images/send.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.footer-rules-agreement {
+    font-size: 12px;
+    color: var(--white);
+
+    margin-top: 0;
+}
+
+.footer-rules-agreement a {
+    color: var(--white) !important;
+}
+
+.footer-data a {
+    color: var(--blue) !important;
 }
