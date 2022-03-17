@@ -35,16 +35,15 @@ body {
 
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.6em;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 h1,
 h2,
 h3 {
-  line-height: 1.2em;
   font-family: Neucha, sans-serif;
-  
+  line-height: 1.2em;
 }
 
 h1 {
@@ -54,7 +53,7 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 60px; 
+  font-size: 60px;
 }
 
 h3 {
@@ -92,24 +91,23 @@ h3 {
 
 .page {
   display: flex;
+  justify-content: center;
+  overflow: hidden;
 
   width: 100%;
   height: fit-content;
-  
-  justify-content: center;
-  overflow: hidden;
 }
 
 .page-content {
   position: relative;
   z-index: 1;
-    
+
   display: flex;
   flex-wrap: wrap;
 
   width: 1110px;
 
-  margin: 100px 0;  
+  margin: 100px 0;
 }
 
 .pattern::before {
@@ -141,15 +139,15 @@ h3 {
   margin-top: 40px;
   padding: 12px 24px;
 
-  border: 0;
-  
   color: var(--white);
+
+  border: 0;
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.6em;
   font-family: "Open Sans", sans-serif;
-  
+  line-height: 1.6em;
+
   text-align: center;
   text-transform: uppercase;
 
@@ -166,7 +164,7 @@ h3 {
 }
 
 button:hover {
-  background-color: #Ea7600;
+  background-color: #ea7600;
 }
 
 .break {
@@ -199,7 +197,6 @@ button:hover {
   width: 100%;
 
   margin: 0;
-  
 }
 
 .page-header .columns {
@@ -213,9 +210,9 @@ nav a {
   display: block;
   width: 100%;
   height: 100%;
-  
+
   color: inherit !important;
-  
+
   text-decoration: none !important;
 }
 
@@ -239,7 +236,7 @@ nav a {
   width: 100%;
 
   margin: 0;
-  
+
   text-align: center;
 }
 
@@ -255,7 +252,7 @@ nav a {
 .video {
   margin-top: 30px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .page-nav {
@@ -276,8 +273,8 @@ nav a {
   margin-bottom: 40px;
 
   font-size: 64px;
-  line-height: 1;
   font-family: Neucha, sans-serif;
+  line-height: 1;
 }
 
 .card-small {
@@ -315,19 +312,19 @@ nav a {
 .page-main h3 {
   display: block;
   width: 100%;
-  
+
+  margin-top: 100px;
+  margin-bottom: 0;
+
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  
-  margin-top: 100px;
-  margin-bottom: 0;
-  
-  font-family: 'Open Sans', sans-serif;
+
   font-weight: 700;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.2em;
-    
+
   text-transform: uppercase;
 }
 
@@ -335,9 +332,9 @@ nav a {
   margin-top: 55px;
   margin-bottom: 55px;
   margin-left: 55px;
-  
+
   color: var(--white);
-  }
+}
 
 .card:hover h3 {
   color: var(--white);
@@ -364,12 +361,12 @@ nav a {
 }
 
 .chapter {
+  margin: 0;
+  
   font-weight: 400;
   font-size: 24px;
-  line-height: 1.2em;
   font-family: Neucha, sans-serif;
-
-  margin: 0;
+  line-height: 1.2em;
 
   color: var(--opacity-dark);
 }
@@ -393,18 +390,18 @@ nav a {
 }
 
 .page-main img {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .left-brown {
   color: var(--white);
-  
+
   background-color: var(--brown);
 }
 
 .right-white {
   color: var(--brown);
-  
+
   background-color: var(--white);
 }
 
@@ -461,9 +458,9 @@ form {
 
   overflow: hidden;
 
-  border: 0;
-
   white-space: nowrap;
+  
+  border: 0;
 }
 
 .form-name {
@@ -478,7 +475,7 @@ form {
 
 .page-footer input {
   box-sizing: border-box;
-  
+
   width: 415px;
   height: 50px;
 
@@ -489,11 +486,12 @@ form {
 
 form ::placeholder {
   font-size: 13.1px;
-  columns: #757575;
-
+  
   padding-top: 17px;
   padding-bottom: 18px;
   padding-left: 15px;
+  
+  columns: #757575;
 }
 
 .small-button::before {
@@ -508,8 +506,8 @@ form ::placeholder {
   background-image: url("../assets/images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  
-  content: '';
+
+  content: "";
 }
 
 .footer-rules-agreement {
