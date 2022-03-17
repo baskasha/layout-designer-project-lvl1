@@ -395,6 +395,11 @@ nav a {
     margin-top: 60px;
 }
 
+.footer-data p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
 .page-footer h3 {
     color: var(--white);
 
@@ -430,12 +435,12 @@ nav a {
     text-align: left;
     color: var(--white);
 
-    margin-top: 38px;
+    margin-top: 40px;
     margin-bottom: 9px;
 }
 
 .page-footer input {
-    width: 423px;
+    width: 415px;
     height: 50px;
 
     box-sizing: border-box;
