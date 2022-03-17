@@ -175,7 +175,7 @@ button:hover {
 
 .page-header>.image-header {
     position: absolute;
-    top: -55px;
+    top: -50px;
     right: -270px;
     height: 525px;
     z-index: -1;
@@ -323,7 +323,7 @@ nav a {
     color: var(--opacity-white);
 }
 
-.page-description h2 {
+.page-main h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -381,7 +381,7 @@ nav a {
 
 .page-footer {
     justify-content: space-between;
-    margin-bottom: 0;
+    margin-bottom: 100px;
 }
 
 .page-footer>div {
@@ -392,7 +392,7 @@ nav a {
     font-size: 14px;
     text-align: center;
 
-    margin-top: 60px;
+    margin-top: 76px;
 }
 
 .footer-data p {
@@ -452,8 +452,6 @@ nav a {
 form ::placeholder {
     font-size: 13.1px;
     columns: #757575;
-
-    opacity: 0.2;
 
     padding-left: 15px;
     padding-top: 17px;
