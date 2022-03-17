@@ -96,7 +96,7 @@ h3 {
   width: 100%;
   height: fit-content;
 
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .page-content {
@@ -150,9 +150,9 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 
-  border: 0;
-
   background-color: var(--main);
+
+  border: 0;
 }
 
 .small-button {
@@ -364,12 +364,11 @@ nav a {
 .chapter {
   margin: 0;
 
+  color: var(--opacity-dark);
+
   font-weight: 400;
   font-size: 24px;
   font-family: Neucha, sans-serif;
-
-  color: var(--opacity-dark);
-
   line-height: 1.2em;
 }
 
