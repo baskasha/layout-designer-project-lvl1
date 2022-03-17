@@ -92,10 +92,11 @@ h3 {
 .page {
   display: flex;
   justify-content: center;
-  overflow: hidden;
 
   width: 100%;
   height: fit-content;
+
+  overflow: hidden; 
 }
 
 .page-content {
@@ -141,8 +142,6 @@ h3 {
 
   color: var(--white);
 
-  border: 0;
-
   font-weight: 700;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -150,6 +149,8 @@ h3 {
 
   text-align: center;
   text-transform: uppercase;
+
+  border: 0;
 
   background-color: var(--main);
 }
@@ -362,13 +363,14 @@ nav a {
 
 .chapter {
   margin: 0;
-  
+
   font-weight: 400;
   font-size: 24px;
   font-family: Neucha, sans-serif;
-  line-height: 1.2em;
 
   color: var(--opacity-dark);
+
+  line-height: 1.2em;
 }
 
 .right .chapter {
@@ -459,7 +461,7 @@ form {
   overflow: hidden;
 
   white-space: nowrap;
-  
+
   border: 0;
 }
 
@@ -485,12 +487,12 @@ form {
 }
 
 form ::placeholder {
-  font-size: 13.1px;
-  
   padding-top: 17px;
   padding-bottom: 18px;
   padding-left: 15px;
-  
+
+  font-size: 13.1px;
+
   columns: #757575;
 }
 
